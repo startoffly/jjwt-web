@@ -15,6 +15,7 @@ import com.google.gson.Gson;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
+
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.junit.jupiter.api.Test;
 
@@ -76,9 +77,9 @@ public class JJWT {
 
 		// 创建payload的私有声明（根据特定的业务需要添加，如果要拿这个做验证，一般是需要和jwt的接收方提前沟通好验证方式的）
 		Map<String, Object> claims = new HashMap<>();
-		claims.put("uid", "123456");
-		claims.put("user_name", "admin");
-		claims.put("nick_name", "X-rapido");
+		claims.put("uid", "testuid");
+		claims.put("user_name", "jjwt");
+		claims.put("nick_name", "xinmove");
 
 		// 生成签名的时候使用的秘钥secret，切记这个秘钥不能外露哦。它就是你服务端的私钥，在任何场景都不应该流露出去。
 		// 一旦客户端得知这个secret, 那就意味着客户端是可以自我签发jwt了。
@@ -119,7 +120,7 @@ public class JJWT {
 
 	public static void main(String[] args) {
 
-		User user = new User("tingfeng", "bulingbuling", 1056856191l);
+		User user = new User("taoid", "name", 4156451);
 		String subject = new Gson().toJson(user);
 
 		try {
@@ -145,7 +146,7 @@ public class JJWT {
 	
 	@Test
 	public void test() {
-		String str = "{\"id\":\"tingfeng\",\"name\":\"bulingbuling\",\"count\":1056856191}";
+		String str = "{\"id\":\"taoid\",\"name\":\"name\",\"count\":4156451}";
 		System.out.println(str);
 		
 		User user = JSONObject.parseObject(str, User.class);

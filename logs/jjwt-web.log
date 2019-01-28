@@ -159,3 +159,51 @@
 2019.01.25 at 17:35:16.273 CST INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
 2019.01.25 at 17:35:16.276 CST INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 3 ms
 2019.01.25 at 17:35:16.307 CST WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 194 logException - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.xinmove.jjwtweb.pojo.ReturnBody com.xinmove.jjwtweb.controller.UserController.login(com.xinmove.jjwtweb.pojo.vo.UserVo)]
+2019.01.28 at 09:54:24.645 CST INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting JjwtWebApplication on 陈炜涛 with PID 13008 (D:\gitIdea\jjwt-web\target\classes started by chenweitao in D:\gitIdea\jjwt-web)
+2019.01.28 at 09:54:24.656 CST INFO  org.springframework.boot.SpringApplication 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019.01.28 at 09:54:25.491 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8080 (http)
+2019.01.28 at 09:54:25.518 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 09:54:25.527 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+2019.01.28 at 09:54:25.527 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019.01.28 at 09:54:25.535 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\apache-maven-3.2.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;D:\OpenVPN\bin;C:\Program Files\Git\cmd;D:\nodejs\;D:\shUtil;;D:\Docker Toolbox;C:\Users\chenweitao\AppData\Roaming\npm;D:\Fiddler;.]
+2019.01.28 at 09:54:25.627 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+2019.01.28 at 09:54:25.627 CST INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 296 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 937 ms
+2019.01.28 at 09:54:25.852 CST INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019.01.28 at 09:54:26.013 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 09:54:26.034 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8080 (http) with context path '/jjwtweb'
+2019.01.28 at 09:54:26.036 CST INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started JjwtWebApplication in 1.742 seconds (JVM running for 3.873)
+2019.01.28 at 09:56:07.856 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019.01.28 at 09:56:07.857 CST INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+2019.01.28 at 09:56:07.861 CST INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 4 ms
+2019.01.28 at 09:59:37.131 CST INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting JjwtWebApplication on 陈炜涛 with PID 13456 (D:\gitIdea\jjwt-web\target\classes started by chenweitao in D:\gitIdea\jjwt-web)
+2019.01.28 at 09:59:37.136 CST INFO  org.springframework.boot.SpringApplication 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019.01.28 at 09:59:38.029 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8080 (http)
+2019.01.28 at 09:59:38.049 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 09:59:38.056 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+2019.01.28 at 09:59:38.056 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019.01.28 at 09:59:38.062 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\apache-maven-3.2.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;D:\OpenVPN\bin;C:\Program Files\Git\cmd;D:\nodejs\;D:\shUtil;;D:\Docker Toolbox;C:\Users\chenweitao\AppData\Roaming\npm;D:\Fiddler;.]
+2019.01.28 at 09:59:38.148 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+2019.01.28 at 09:59:38.148 CST INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 296 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 981 ms
+2019.01.28 at 09:59:38.370 CST INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019.01.28 at 09:59:38.513 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 09:59:38.532 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8080 (http) with context path '/jjwtweb'
+2019.01.28 at 09:59:38.534 CST INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started JjwtWebApplication in 1.774 seconds (JVM running for 2.843)
+2019.01.28 at 09:59:38.591 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019.01.28 at 09:59:38.591 CST INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+2019.01.28 at 09:59:38.595 CST INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 4 ms
+2019.01.28 at 10:15:37.520 CST INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting JjwtWebApplication on 陈炜涛 with PID 9356 (D:\gitIdea\jjwt-web\target\classes started by chenweitao in D:\gitIdea\jjwt-web)
+2019.01.28 at 10:15:37.528 CST INFO  org.springframework.boot.SpringApplication 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019.01.28 at 10:15:38.412 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8080 (http)
+2019.01.28 at 10:15:38.430 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 10:15:38.437 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+2019.01.28 at 10:15:38.437 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019.01.28 at 10:15:38.442 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\apache-maven-3.2.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;D:\OpenVPN\bin;C:\Program Files\Git\cmd;D:\nodejs\;D:\shUtil;;D:\Docker Toolbox;C:\Users\chenweitao\AppData\Roaming\npm;D:\Fiddler;.]
+2019.01.28 at 10:15:38.534 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+2019.01.28 at 10:15:38.534 CST INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 296 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 980 ms
+2019.01.28 at 10:15:38.757 CST INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019.01.28 at 10:15:38.908 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting ProtocolHandler ["http-nio-8080"]
+2019.01.28 at 10:15:38.926 CST INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8080 (http) with context path '/jjwtweb'
+2019.01.28 at 10:15:38.929 CST INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started JjwtWebApplication in 2.211 seconds (JVM running for 3.35)
+2019.01.28 at 10:15:41.988 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019.01.28 at 10:15:41.988 CST INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+2019.01.28 at 10:15:41.995 CST INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 6 ms

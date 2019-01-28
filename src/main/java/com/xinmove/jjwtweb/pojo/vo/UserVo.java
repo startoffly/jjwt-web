@@ -16,6 +16,13 @@ public class UserVo {
 
     public UserVo() {
     }
+
+    public UserVo(String username, String password, String type) {
+        this.username = username;
+        this.password = password;
+        this.type = type;
+    }
+
     public String getUsername() {
         return username;
     }
