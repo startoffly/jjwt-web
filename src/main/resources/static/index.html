@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试主页</title>
+    <script type="text/javascript" src="js/request.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <h1>Ajax 发送 POST 请求</h1>
+
+    <div style="padding: 10px;border-style: solid; border-width: 1px;border-color: brown">
+        <p>username: <input type="text" name="username" value="默认账号"/></p>
+        <p>possword: <input type="password" name="password" value="r1q2w3e4r"/></p>
+        <p>type: <input type="text" name="type" value="默认类别"/></p>
+        <button type="button" value="发送post请求" onclick="sendP('http://localhost:8080/jjwtweb/api/user/loginPost')">Click Me!</button>
+        <p id = "result" style="padding: 10px;border-style: solid; border-width: 1px;border-color: aqua">
+            这是结果内容
+        </p>
+    </div>
+
+    <div>
+        <input type="button" value="发送get请求" id='btnAjax' onclick="sendG('http://localhost:8080/jjwtweb/api/user/login','')">
+    </div>
+
+</body>
+</html>

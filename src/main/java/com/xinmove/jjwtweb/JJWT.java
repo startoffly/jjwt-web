@@ -33,8 +33,8 @@ public class JJWT {
 		// 本地的密码解码
 		byte[] encodedKey = Base64.decodeBase64(stringKey);
 
-		// 根据给定的字节数组使用AES加密算法构造一个密钥
-		SecretKey key = new SecretKeySpec(encodedKey, 0, encodedKey.length, "AES");
+		// 根据给定的字节数组使用DES加密算法构造一个密钥
+		SecretKey key = new SecretKeySpec(encodedKey, 0, encodedKey.length, "DES");
 
 		return key;
 	}
